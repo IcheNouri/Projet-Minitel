@@ -1,0 +1,75 @@
+#!/bin/env python
+# -*-coding: utf-8 -*-
+def aff_menu_bonus():
+        print("\033[H\033[J")
+        print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+        print("====================================================\n")
+        print("1 : Lancer le shell \n")
+        print("2 : Lancer le shell avec interface graphique \n")
+        print("====================================================\n")
+        print("Tapez sur 'quit' pour quitter :")
+
+def aff_menu1():
+    print("\033[H\033[J")
+    print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+    print("====================================================\n")
+    print("0 : Retour au menu principal \n")
+    print("1 : Informations generales \n")
+    print("2 : Reseaux \n")
+    print("3 : Processus \n")
+    print("====================================================\n")
+    print("Tapez sur 'quit' pour quitter :")
+
+
+def aff_menu2():
+    print("\033[H\033[J")
+    print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+    print("====================================================\n")
+    print("0 : Retour au menu principal \n")
+    print("1 : Version du systeme d'exploitation \n")
+    print("2 : Uptime \n")
+    print("3 : Version du kernel \n")
+    print("4 : Informations du hardware\n")
+    print("5 : Limite de fichiers ouverts\n")
+    print("6 : Limite de processus ouverts\n")
+    print("7 : Paquets installes \n")
+    print("====================================================\n")
+    print("Tapez sur 'quit' pour quitter :")
+
+def aff_menu3():
+    print("\033[H\033[J")
+    print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+    print("====================================================\n")
+    print("0 : Retour au menu principal \n")
+    print("1 : Adresse IP \n")
+    print("2 : Interfaces existantes \n")
+    print("3 : Nombre de paquets transmis/reçu \n")
+    print("4 : Routes\n")
+    print("5 : Etat forward de paquet\n")
+    print("a : Autre")
+    print("====================================================\n")
+    print("Tapez sur 'quit' pour quitter :")
+
+def aff_menu4():
+    print("\033[H\033[J")
+    print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+    print("====================================================\n")
+    print("0 : Retour au menu principal \n")
+    print("1 : Afficher tous les processus \n")
+    print("2 : Afficher les details d'un processus \n")
+    print("3 : Lancer un processus\n")
+    print("====================================================\n")
+    print("Tapez sur 'quit' pour quitter :")
+
+def aff_menu3bonus():
+    print("\033[H\033[J")
+    print("\n\033[31mBienvenue sur le Shell interactif ! \033[0m\n")
+    print("====================================================\n")
+    print("6  : Desactiver l'Interfaces Ethernet\n")
+    print("7  : Activer l'Interfaces Ethernet\n")
+    print("8  : Afficher le ping\n")
+    print("9  : Etat des connexions\n")
+    print("10 : Afficher le chemin parcouru par un paquet\n")
+    print("a  : Debut")
+    print("====================================================\n")
+    print("Tapez sur 'quit' pour quitter :")
